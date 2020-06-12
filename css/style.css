@@ -44,12 +44,20 @@ body{
 .navbar-header.col {
     padding: 0 !important;
 }	
-.navbar {		
+#navbar1 {		
     background: rgb(0, 0, 0);
     padding-right: 16px;
     border-bottom: 1px solid #000000;
     box-shadow: 0 0 4px rgba(0,0,0,.1);
 }
+
+#navbar2 {		
+    background: rgba(0, 0, 0, 0.541);
+    padding-right: 16px;
+    border-bottom: 1px solid #00000000;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0);
+}
+
 .nav-link img {
     border-radius: 50%;
     width: 36px;
@@ -364,7 +372,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .icon {
         font-size: 15px !important;
     }
-    .motto,.rem,.non-mobile {
+    .motto,.rem,.non-mobile, .quoteimage {
        display: none;
     }
     .for-mobile {
@@ -376,5 +384,48 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .footer2 {
         font-size: 15px;
     }
+}
+
+/* index */
+
+/* about */
+
+#background1 {
+
+    background-image: url("../pictures/grayback.jpg");
+}
+
+#photo1 {
+        background-image: url("../pictures/photo3.jpg");
+        opacity: 0.75;
+        padding: 150px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+}
+
+.first{
+
+    padding-top: 6%;
+}
+
+.transparent{
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+}
+
+.quoteimage {
+    color: white;
+    font-weight: bold;
+    font-size: 35pt;
+}
+
+#photo2{
+    background-image: url("../pictures/thankful.JPG");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+
+
 }
 
