@@ -473,3 +473,38 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     .container-title {
         color: white;
     }
+
+    /* experiences */
+
+
+    #photo4 {
+        background-image: url("../pictures/rldc19.jpeg");
+        opacity: 0.75;
+        padding: 150px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+}
+#photo5 {
+    background-image: url("../pictures/rld20.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#photo6 {
+    background-image: url("../pictures/tamuhackaward3.JPG");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+    .nobackground{
+
+        background-image: none;
+    }
+
+    .modal-backdrop {
+        z-index: -1000;
+    }
+
