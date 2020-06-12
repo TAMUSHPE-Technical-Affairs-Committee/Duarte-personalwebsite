@@ -10,6 +10,20 @@ body{
 	padding-bottom: 0px;
 }
 
+/* index */
+#photo {
+    background-image: linear-gradient(to right, rgba(200, 200, 200, 0),rgba(200, 200, 200, 0)),url("../pictures/backg.png");
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+
+
+#award {
+    height: 75%;
+}
+
 .newback {
     padding: 50px;
 }
@@ -104,6 +118,21 @@ body{
     color:  #777;
 }
 
+.nounder  {
+    color:white;
+    text-decoration: none;
+}
+
+.nounder:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.region {
+    text-align: center;
+    vertical-align: middle;
+    color:rgb(80, 0, 0);
+}
 
 .container-fluid {
     padding: 0;
@@ -336,7 +365,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         font-size: 15px !important;
     }
     .motto,.rem,.non-mobile {
-        display: none;
+       display: none;
     }
     .for-mobile {
         display: inherit;
@@ -349,10 +378,3 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
     }
 }
 
-/* index */
-#photo {
-    background-image: linear-gradient(to right, rgba(200, 200, 200, 0),rgba(200, 200, 200, 0)),url("../pictures/backg.png");
-    padding: 150px;
-    padding-top: 300px;
-    padding-bottom: 300px;
-}
