@@ -469,3 +469,7 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
         height: 50%;
     }
+
+    .container-title {
+        color: white;
+    }

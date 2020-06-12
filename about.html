@@ -39,9 +39,10 @@
                 </ul>
             </div>
         </nav>
-        <!--End of nav-->
+    <!--End of nav-->
 
-        <!-- Beginning of main -->
+    <!-- Beginning of main -->
+        <!-- Contains about me post with professional photo -->
         <div class="container newback first">
             <div class="card mb-3" >
                 <div class="row no-gutters">
@@ -65,7 +66,9 @@
                 </div>
               </div>
         </div>
+        <!-- End of personal post  -->
 
+        <!-- Parallax Container with quote within the image -->
         <div class="container-fluid plax" id="photo1">
             <div class="card transparent">
                 <div class="card-body">
@@ -77,16 +80,19 @@
               </div>
         </div>
 
+        <!-- Contains the cards relating to my current assignment-->
         <div class="container newback">
-            <!--Title for the highlighted members-->
+            <!--Title for the Current Assignments-->
                 <div class="row">
                   <div class="col-md-12">
-                      <h3><strong>Current Assignments</strong></h3>
+                      <h3><strong class="container-title">Current Assignments</strong></h3>
                   </div>
                 </div>
+                <br class="non-mobile">
             
-            <!--First set of three cards-->
+            <!--Set of three cards with buttons linking to modals-->
                 <div class="card-deck mx-auto">
+                    <!-- First Card  -->
                     <div class="card" style="width:auto">
                         <img class="card-img-top cardheight" src="pictures/exxon.jpeg" alt="Card image">
                         <div class="card-body d-flex flex-column">
@@ -95,15 +101,11 @@
                         <button type="button" class="align-self-btm mt-auto btn btn-primary" style="background-color: #001f5b;" data-toggle="modal" data-target="#modal1">Read My Journey</button>
                           <div class="modal fade bd-example-modal-lg" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
+                            <!-- Information within the modal  -->
                               <div class="modal-content">                            
                                 <br class="non-mobile">
                                 <div class="card mb-3">
                                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <!-- <ol class="carousel-indicators">
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol> -->
                                     <div class="carousel-inner">
                                       <div class="carousel-item active">
                                         <img src="pictures/exxon.jpeg" class="img-fluid d-block w-100" alt="...">
@@ -159,6 +161,9 @@
                           </div>
                         </div>
                     </div>
+                    <!-- End of first card  -->
+
+                    <!-- Second Card -->
                     <div class="card" style="width:auto">
                     <img class="card-img-top cardheight" src="pictures/national.jpeg" alt="Card image">
                     <div class="card-body d-flex flex-column">
@@ -168,14 +173,10 @@
                           <div class="modal fade bd-example-modal-lg" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                               <div class="modal-content">
+                                <!-- Information within the modal -->
                                 <br class="non-mobile">
                                 <div class="card mb-3">
                                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <!-- <ol class="carousel-indicators">
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol> -->
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                           <img src="pictures/exxon.jpeg" class="img-fluid d-block w-100" alt="...">
@@ -231,6 +232,9 @@
                           </div>
                     </div>
                     </div>
+                    <!-- End of second card -->
+
+                    <!-- Third Card -->
                     <div class="card" style="width:auto">
                         <img class="card-img-top cardheight" src="pictures/fermiilogo.jpg" alt="Card image">
                         <div class="card-body d-flex flex-column">
@@ -240,14 +244,10 @@
                           <div class="modal fade bd-example-modal-lg" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                             <div class="modal-dialog modal-lg">
                               <div class="modal-content">
+                                <!-- Information within the modal -->
                                 <br class="non-mobile">
                                 <div class="card mb-3">
                                   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <!-- <ol class="carousel-indicators">
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-                                      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-                                    </ol> -->
                                     <div class="carousel-inner">
                                         <div class="carousel-item active">
                                           <img src="pictures/exxon.jpeg" class="img-fluid d-block w-100" alt="...">
@@ -303,15 +303,30 @@
                           </div>
                     </div>
                     </div>
+                    <!-- End of third card -->
               </div>
+              <!-- End of Card deck of three -->
         </div>
 
+        <!-- Second Parallax -->
         <div class="container-fluid plax" id="photo2"></div>
-        
-            
-        </div>
 
+        </div>
+        <!-- End of second parallax -->
+
+        <!-- Third container with personal highlight carousel -->
         <div class="container newback">
+
+            <!-- Container title -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h3><strong class="container-title">Personal Highlights</strong></h3>
+                </div>
+              </div>
+              <br class="non-mobile">
+            <!-- End of container title -->
+
+            <!-- Beginning of carousel -->
             <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
                 <ol class="carousel-indicators">
                   <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
@@ -350,46 +365,48 @@
                   <span class="sr-only">Next</span>
                 </a>
               </div>
+            <!-- End of Carousel -->
         </div>
+        <!-- End of container -->
 
+        <!-- Beginning of the third parallax -->
         <div class="container-fluid plax" id="photo3"></div>
         
-            
         </div>
-
+        <!-- End of parallax -->
 
 
          <!--Footer-->
-    <div class="container-fluid">
-		<div class="row" id="footer">
-			<div class="col-md-4 col-lg-4">
-				<p><b>Email:</b> jad6442@tamu.edu<br>
-                <b>Phone Number:</b> (704) 960-**** 
+        <div class="container-fluid">
+            <div class="row" id="footer">
+                <div class="col-md-4 col-lg-4">
+                    <p><b>Email:</b> jad****@tamu.edu<br>
+                    <b>Phone Number:</b> (704) 960-**** 
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <p><b>Mailing Address:</b><br>
+                    Joshua A. Duarte <br>
+                    907 ***** ** <br>
+                    Apt **** <br> College Station, Texas 77843-3127
+                </p>
+                </div>
+                <div class="col-md-4 col-lg-4">
+                    <p><b>Give me a follow!</b><br>
+                        <a class="footer" href="#" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
+                        <a class="footer" href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
+                        <a class="footer" href="#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a><br>
+                        <a class="footer" href="#" target="_blank"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
+                        <a class="footer" href="#" target="_blank"><i class="fab fa-linkedin" arua-hidden="true"></i></a>
+                    </p>
+                </div>
             </div>
-            <div class="col-md-4 col-lg-4">
-            	<p><b>Mailing Address:</b><br>
-				Joshua A. Duarte <br>
-				907 ***** ** <br>
-                Apt **** <br> College Station, Texas 77843-3127
-            </p>
-            </div>
-            <div class="col-md-4 col-lg-4">
-            	<p><b>Give me a follow!</b><br>
-            		<a class="footer" href="#" target="_blank"><i class="fab fa-facebook" aria-hidden="true"></i></a>
-      				<a class="footer" href="#" target="_blank"><i class="fab fa-twitter" aria-hidden="true"></i></a>
-      				<a class="footer" href="#" target="_blank"><i class="fab fa-instagram" aria-hidden="true"></i></a><br>
-      				<a class="footer" href="#" target="_blank"><i class="fab fa-snapchat" aria-hidden="true"></i></a>
-      				<a class="footer" href="#" target="_blank"><i class="fab fa-linkedin" arua-hidden="true"></i></a>
-      			</p>
-            </div>
-		</div>
-	</div>
-    <!-- Bootstrap core-->
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <script>
-        AOS.init();
-    </script> 
+        </div>
+        <!-- Bootstrap core-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            AOS.init();
+        </script> 
 
   </body>
