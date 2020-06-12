@@ -508,3 +508,28 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
         z-index: -1000;
     }
 
+/* projects */
+
+#photo7 {
+    background-image: url("../pictures/bowling.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#photo8 {
+    background-image: url("../pictures/shpesalsa.png");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+
+#photo9 {
+    background-image: url("../pictures/crawfish.jpg");
+    opacity: 0.75;
+    padding: 150px;
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
