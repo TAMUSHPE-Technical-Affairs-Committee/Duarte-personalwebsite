@@ -429,3 +429,43 @@ ul.nav li.dropdown:hover ul.dropdown-menu {
 
 }
 
+.heightlimit {
+    max-height: 600px;
+}
+
+
+       /* Modal style */
+        
+       .membermodal{
+        height: 325px;
+        overflow-y: scroll;
+    }
+
+    #membermodalfoot{
+        padding: 0%;
+    }
+
+    #cardbodymodal {
+        padding: 1rem;
+    }
+    .btn-secondary{
+        background-color: #D33A02;
+    }
+    .btn-secondary:hover{
+        background-color: rgb(185, 120, 96);
+    }
+
+    #photo3{
+        background-image: url("../pictures/genmotors.JPG");
+        opacity: 0.75;
+        padding: 150px;
+        padding-top: 300px;
+        padding-bottom: 300px;
+    
+    
+    }
+
+    .cardheight {
+
+        height: 50%;
+    }
